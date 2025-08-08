@@ -7,7 +7,7 @@ import json
 app = Flask(__name__)
 
 # Configure Google Generative AI
-genai.configure(api_key="AIzaSyByu3noEXHjGjBLNTn451CjYCn_Vf9Uzkw")
+genai.configure(api_key="key here")
 model = genai.GenerativeModel("models/gemini-1.5-flash-latest")
 
 # Document templates with only essential fields
